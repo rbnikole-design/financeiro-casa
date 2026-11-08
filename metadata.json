@@ -1,0 +1,6 @@
+{
+  "name": "Financeiro Casa",
+  "description": "Controle financeiro doméstico com telas de Lançar e Resumo conectado ao Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
