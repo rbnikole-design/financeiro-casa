@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#064e3b" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Background with safe zone margin -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <!-- Central Icon Graphic (Safe Zone is within 80% circle) -->
+  <g filter="url(#shadow)" transform="translate(106, 106) scale(1.25)">
+    <!-- Spreadsheet / Wallet icon -->
+    <rect x="20" y="30" width="200" height="180" rx="24" fill="#ffffff"/>
+    <rect x="20" y="30" width="200" height="48" rx="24" fill="#10b981"/>
+    <!-- Grid elements -->
+    <rect x="36" y="98" width="50" height="14" rx="4" fill="#cbd5e1"/>
+    <rect x="96" y="98" width="108" height="14" rx="4" fill="#10b981"/>
+    <rect x="36" y="126" width="70" height="14" rx="4" fill="#94a3b8"/>
+    <rect x="116" y="126" width="88" height="14" rx="4" fill="#34d399"/>
+    <rect x="36" y="154" width="60" height="14" rx="4" fill="#cbd5e1"/>
+    <rect x="106" y="154" width="98" height="14" rx="4" fill="#10b981"/>
+    <!-- Currency badge -->
+    <circle cx="180" cy="54" r="16" fill="#047857"/>
+    <text x="180" y="60" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle">$</text>
+  </g>
+</svg>
